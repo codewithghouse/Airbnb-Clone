@@ -1,0 +1,147 @@
+/* body me ham ilsiy flex and min height rakhe taake navbar and footer stick rahe  */
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+   font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/* boilerplate conatainer hai yeh  */
+.container{
+  flex: 1;
+}
+ /* navbar design kare yahaan pe ham  */
+ .navbar{
+    height: 5rem;
+    background-color: white;
+ }
+ .fa-compass{
+    color: #fe434d;
+    font-size: 2rem;
+ }
+ .nav-link{
+   color: #222 !important;
+ }
+ /* footer design kare yahaan se ham  */
+ .f-info-links a{
+   text-decoration: none;
+ }
+  .f-info-links a:hover{
+   text-decoration: underline;
+  }
+ .f-info-links,.f-info-socials,.f-info-brand{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .f-info-socials i{
+   margin-right: 1.3rem;
+ }
+ .f-info{
+   text-align: center;
+   height: 8rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: space-evenly;
+   flex-wrap: wrap;
+ }
+ /* custum styling for the cards  */
+ .listing-card{
+  border: none !important;
+  margin-bottom: 2rem;
+ }
+ .card-img-top{
+  border-radius:1rem !important ;
+  width: 100% !important;
+  object-fit: cover !important;
+
+ }
+ .card-body{
+  margin: 0 !important;
+ }
+ .card-text{
+  font-weight: 400 !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+ }
+.listing-links{
+  text-decoration: none;
+}
+.card-img-overlay{
+  opacity: 0;
+}
+.card-img-overlay:hover{
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* show ejs */
+.show-img{
+  height: 40vh;
+}
+.btns{
+  display: flex;
+
+}
+.show-card{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+
+/* map styling is here  */
+#map {
+  height: 400px;
+  width: 80vh;
+  border-radius: 10px;
+   }
+/* styling ui filter */
+#filters{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter{
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 1.rem;
+  opacity: 0.7;
+}
+.filter:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.filter p{
+  font-size: 0.8rem;
+}
+
+/* tax-info styling is  here */
+.tax-info{
+  display: none;
+}
+.tax-toggle{
+  border: 1px solid black;
+ border-radius: 1rem;
+  height: 3rem;
+  padding: 1rem;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom:1rem;
+}
+
+/* navbar search styling */
+.btn-search{
+  background-color: #fe424d;
+  color: white;
+}
+.btn-search:hover{
+   background-color: #fe424d;
+  color: white;
+}

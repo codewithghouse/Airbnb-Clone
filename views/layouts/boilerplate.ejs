@@ -1,0 +1,39 @@
+<!-- boilerplate ka matlab hai ek aisa sample code jo har jagah exist karta hai  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rating css of starablity -->
+     <link rel="stylesheet" href="/css/rating.css">
+    <!-- bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- google fonts link  -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<!-- mapbox api is here  -->
+ <link href="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.js"></script>
+ </head>
+ <body>
+<!-- navbar ke code ku ham yahaan pe includes ki madad se inject karre -->
+ <%- include("../includes/navbar.ejs") %>
+<!-- yahaanse ham bolierplate.ejs ku export karretaake dusre jagah same layour aaye -->
+<div class="container">
+   <!-- to display the flash message -->
+    <%- include("../includes/flash.ejs")  %>
+   <%- body %>
+</div>
+    <!-- ye hamara eport syntax hai yaani ham eporrt karre hamare body tag ku  -->
+ </body>
+ <%- include("../includes/footer.ejs") %>
+ <!-- bootstrap js ki link hai yeh  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+ </html>
+ <!-- ye jo boilrerplate hai ham isku index route ya har route pe inject karre yahaan se jo syntax hai usku follow karre -->
