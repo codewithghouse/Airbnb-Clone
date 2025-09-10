@@ -36,6 +36,8 @@ let connect_db= async ()=>{
     }
 }
 connect_db();
+
+
 // requirng ExpressError.js
 const ExpressError= require("./utils/ExpressError.js");
 // requiring the flash
@@ -64,8 +66,9 @@ const sessionOptions = {
     cookie:{
         expires:Date.now()+2*24*60*60*1000,
         maxAge:2*24*60*60*1000,
-        httpOnly:true
+        httpOnly:true,
     },
+
    
 };
 //passport
