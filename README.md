@@ -57,7 +57,6 @@ MAPBOX_TOKEN=your_mapbox_token
 
 npm start
 
-
 5 .Open in browser:
 
 http://localhost:3000
