@@ -11,6 +11,7 @@ The project is inspired by modern travel & rental platforms but built from scrat
 ## 📸 Preview
 
 ![RentEase Screenshot](./screenshot/rent-ease.png)
+![RentEase Screenshot](./screenshot/showpage.png)
 
 ---
 
@@ -60,3 +61,37 @@ npm start
 5 .Open in browser:
 
 http://localhost:3000
+
+## 📌 Roadmap
+
+ Add booking functionality with date availability
+
+ Payment gateway integration (Stripe/PayPal)
+
+ Advanced filters (price range, amenities, location)
+
+ Custom domain deployment
+
+## 🎨 Branding (for Portfolio)
+
+Logo Idea: A simple house roof + bed icon, with “RentEase” written in modern rounded font
+
+Color Scheme:
+
+🌿 Teal Green (#2EC4B6) – for freshness & trust
+
+☁️ Light Gray (#F5F5F5) – clean background
+
+🏠 Warm Orange (#FF9F1C) – highlights & buttons
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+ ##👤 Author
+
+Made with ❤️ by codewithghouse
