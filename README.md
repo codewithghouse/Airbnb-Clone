@@ -10,7 +10,7 @@ The project is inspired by modern travel & rental platforms but built from scrat
 
 ## 📸 Preview
 
-![RentEase Screenshot](./screenshot/ent-ease.png)
+![RentEase Screenshot](./screenshot/rent-ease.png)
 
 ---
 
