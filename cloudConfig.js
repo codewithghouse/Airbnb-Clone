@@ -8,7 +8,7 @@ cloudinary.config({
     api_secret:process.env.CLOUD_API_SECRET
 });
 // defining the storage where we want to store our listing image
-//destinatio derain ke cloudinary account ke uppr ek folder hia airbnb bolke usme images store karna hai
+//destinatio derain ke cloudinary account ke uppr ek folder hai airbnb bolke usme images store karna hai
  
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
