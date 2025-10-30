@@ -30,7 +30,7 @@ const validateListing =(req,res,next)=>{
    
 }
 // using multer for parsing the multipart/form-data
-const multer  = require('multer')
+const multer  = require('multer');
 const {storage}= require("../cloudConfig.js");
 const upload = multer({storage });
 
